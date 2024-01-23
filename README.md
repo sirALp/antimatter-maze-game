@@ -38,11 +38,11 @@ You can let the computer play for you / Auto Mode but it won't guarentee the win
 ## Auto Gameplay
 You can set autogameplay enabled in the menu and start the game. It tries to find his way out avoiding getting captured by blackholes.
 
-## Contact
-kanera989@gmail.com
 
 
 
 ## Difficulty
 Changes the moves user's have. If game completed in hard-mode user's points multiplied by 1.5 .
 
+## Contact
+kanera989@gmail.com
