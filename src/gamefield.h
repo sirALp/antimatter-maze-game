@@ -2,14 +2,14 @@
 #define _GAMEFIELD_H_
 #define MAX_STR 80
 
-typedef struct {
-	char** gameField;
-	unsigned int curLocation[2];
+typedef struct{
+	char **gameField;
 	unsigned int fieldSize[2];
-}FIELD;
+	unsigned int curLocation[2];
+} FIELD;
 
-extern void* readGameField(char*); 
-extern void displayGameField(FIELD*,int);
-extern _Bool printMapsFolder(char*);
+extern void *readGameField(char *);
+extern void displayGameField(FIELD *, int);
+extern _Bool printMapsFolder(char *);
 
 #endif

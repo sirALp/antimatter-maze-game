@@ -8,11 +8,7 @@
 #include "gameplay.h"
 #include "gamefield.h"
 
-// test 1
-
-// test 222 also
-int displayMenu()
-{
+int displayMenu(){
 	auto void printHeader();
 	auto void printChoices();
 	auto int printLobby();
