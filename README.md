@@ -12,9 +12,28 @@ Project is mainly aims to "**_file handling_**" , "**_recursive functions (autom
 ## Disclaimer
 ! *Before you run the .exe file it's suggested that you run make file and create a new .exe* ! 
 ! *In the game menu you should choose a map before starting the game* !
-.
-.
-## About Folders
+ 
+
+
+## How to run makefile
+1- Change current directory to ./antimatter-maze-game/src   via: 
+```console
+cd ./antimatter-maze-game/src
+```
+2- Create **_project.exe_** file using makefile via: 
+```console
+make -f MakeFile
+```
+! Warning the code may differ because of different **make.exe** names, if above doesn't work try : 
+```console
+mingw32-make -f MakeFile
+```
+3- Execute project.exe by : 
+```console
+.\project.exe
+```
+
+## About Folder Structure
 - **_"src"_**  folder contains the main source codes of the game itself.
 - **_"data"_** contains the usr.bin file which holds the user datas ; username , password , name , lastname.
 - **_"maps"_** contains maps or gamefields. When game is started they are loaded initally. Files should be formatted properly.
