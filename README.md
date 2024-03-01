@@ -62,6 +62,3 @@ You can set autogameplay enabled in the menu and start the game. It tries to fin
 
 ## Difficulty
 Changes the moves user's have. If game completed in hard-mode user's points multiplied by 1.5 .
-
-## Contact
-kanera989@gmail.com
